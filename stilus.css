@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 600px;
+    max-width: 90%;
+    border: solid black 1pt;
+    padding: 10px;
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+article {
+    grid-area: a;
+}
+
+section {
+    grid-area: s;
+}
+
+footer {
+    grid-area: s;
+}
+
+/* Felépítés */
+
+header {
+    border: solid black 1pt;
+    padding: 10px;
+}
+
+nav {
+    border: solid black 1pt;
+    padding: 5px;
+    background-color: rgb(199, 199, 199);
+}
+
+article {
+    border: solid black 1pt;
+    padding: 10px;
+}
+
+section {
+    border: solid black 1pt;
+    padding: 10px;
+}
+
+footer {
+    border: solid black 1pt;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Menü */
+
+nav ul{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+nav li {
+    list-style: none
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    background-color: red;
+}
+
+.menupont {
+    border-left: solid black 1pt;
+    float: right;
+}
+
+#kezdolap {
+    float: left;
+}
+
+/* Képek */
